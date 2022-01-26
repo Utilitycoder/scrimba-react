@@ -1,0 +1,19 @@
+.container {
+    padding: 57px 27px;
+    color: white;
+}
+
+.Main-title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.Main-items {
+    margin-top: 46px;
+    max-width: 400px;
+}
+    li {
+        line-height: 19px;
+        padding-block: 10px;
+    }

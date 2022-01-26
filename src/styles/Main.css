@@ -1,6 +1,9 @@
 .container {
     padding: 57px 27px;
     color: white;
+    background-image: url(../Images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
 }
 
 .Main-title {
@@ -16,4 +19,9 @@
     li {
         line-height: 19px;
         padding-block: 10px;
+    }
+    /* marker is used to select the bullet or number formatting*/
+    li::marker {
+        font-size: 1.4rem;
+        color: #61DAFB;
     }
